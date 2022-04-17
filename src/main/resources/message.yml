@@ -1,0 +1,23 @@
+######################################################################################
+#__       ___________    ____  _______  __      .______   ____    ____ .______       #
+#  |  |     |   ____\   \  /   / |   ____||  |     |   _  \  \   \  /   / |   _  \   #
+#    |  |     |  |__   \   \/   /  |  |__   |  |     |  |_)  |  \   \/   /  |  |_)  |#
+#    |  |     |   __|   \      /   |   __|  |  |     |   ___/    \      /   |   ___/ #
+#    |  `----.|  |____   \    /    |  |____ |  `----.|  |         \    /    |  |     #
+#    |_______||_______|   \__/     |_______||_______|| _|          \__/     | _|     #
+#                                   LevelPVP Config                                  #
+#                                  Made by commandf1                                 #
+######################################################################################
+
+Errors:
+  CommandsRunByConsole: "&cThis command can only run by player."
+  GameNotSetUp: "&cSorry, the game is not setup, please try later."
+  AlreadyJoined: "&cSorry, but you already joined the games."
+CommandInfo:
+  Help:
+    - "&aLevelPVP By commandf1"
+    - "&e/levelPvp setArea - Set the area of the game"
+    - "&e/levelPvp setLobby - Set the lobby of the game"
+    - "&e/levelPvp reload - Reload configs"
+Message:
+  SetupComplete: "&aSetup complete"

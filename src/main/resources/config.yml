@@ -1,0 +1,44 @@
+######################################################################################
+#     __       ___________    ____  _______  __      .______   ____    ____ .______  #
+#    |  |     |   ____\   \  /   / |   ____||  |     |   _  \  \   \  /   / |   _  \ #
+#    |  |     |  |__   \   \/   /  |  |__   |  |     |  |_)  |  \   \/   /  |  |_)  |#
+#    |  |     |   __|   \      /   |   __|  |  |     |   ___/    \      /   |   ___/ #
+#    |  `----.|  |____   \    /    |  |____ |  `----.|  |         \    /    |  |     #
+#    |_______||_______|   \__/     |_______||_______|| _|          \__/     | _|     #
+#                                   LevelPVP Config                                  #
+#                                  Made by commandf1                                 #
+######################################################################################
+#                                    PlaceHolders:                                   #
+#                    %LevelPVP_author%    -    the name of the author                #
+#                    %LevelPVP_kills%     -    the kills                             #
+#                    %LevelPVP_deaths%    -    the deaths                            #
+#                    %LevelPVP_version%   -    the version of the plugin             #
+#######################################################################################
+
+disable_author_message: false
+#Disable the message of the author when a player joined.
+
+isSetUp: false
+#If you have been set up finished, you should set the isSetUp to true
+
+disable_join_leave_message: true
+#Disable the message when a player joins or quit.
+
+scoreboard:
+  #ScoreBoard Settings
+
+  title: "&aLevelPVP"
+  list:
+    - "&aName: &e%player_name%"
+    - "&aKills: &e%LevelPVP_kills%"
+    - "&aDeaths: &e%LevelPVP_deaths%"
+    - ""
+    - "&MyServer.Net"
+death:
+  #When a player dead, what message should we send?
+  message:
+    title: "&c⚠"
+    subtitle: "&eYou dead"
+  alert:
+    byKiller: "&e%player% killed by &c%killer%"
+    byNull: "&e%player% dead."

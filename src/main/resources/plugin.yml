@@ -1,0 +1,20 @@
+name: LevelPVP
+main: me.commandf1.LevelPVP.Main
+version: ${project.version}
+load: POSTWORLD
+depend:
+  - PlaceholderAPI
+commands:
+  LevelPVP:
+    description: LevelPVP
+    aliases:
+      - levelp
+      - lpvp
+  join:
+    description: Join the gmae
+    aliases:
+      - j
+  reloadPlugin:
+    description: reloadPlugin
+    aliases:
+      - rp
